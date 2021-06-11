@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.min-h-screen-custom {
+    min-height: calc(100vh - 60px);
+}
