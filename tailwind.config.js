@@ -7,12 +7,19 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          DEFAULT: '#394F63',
+        },
+      }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [
     require('@tailwindcss/jit'),
+    require('@tailwindcss/forms'),
   ],
 }

@@ -4,6 +4,8 @@
 
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
 .min-h-screen-custom {
     min-height: calc(100vh - 60px);
 }
